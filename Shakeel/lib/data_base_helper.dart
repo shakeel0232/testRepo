@@ -5,14 +5,14 @@ import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DatabaseHelper {
-  static final _databaseName = "MyDatabase.db";
-  static final _databaseVersion = 1;
+  static const _databaseName = "MyDatabase.db";
+  static const _databaseVersion = 1;
 
-  static final table = 'my_table';
+  static const table = 'my_table';
 
   static const columnId = '_id';
-  static final columnName = 'name';
-  static final columnAge = 'age';
+  static const columnName = 'name';
+  static const columnAge = 'age';
 
   // make this a singleton class
   DatabaseHelper._privateConstructor();

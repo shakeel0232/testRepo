@@ -32,25 +32,25 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton(
-              child: Text(
+              onPressed: _insert,
+              child: const Text(
                 'insert',
                 style: TextStyle(fontSize: 20),
               ),
-              onPressed: _insert,
             ),
             ElevatedButton(
-              child: Text(
+              onPressed: _query,
+              child: const Text(
                 'query',
                 style: TextStyle(fontSize: 20),
               ),
-              onPressed: _query,
             ),
             ElevatedButton(
-              child: Text(
+              onPressed: _update,
+              child: const Text(
                 'update',
                 style: TextStyle(fontSize: 20),
               ),
-              onPressed: _update,
             ),
             ElevatedButton(
               child: Text(
